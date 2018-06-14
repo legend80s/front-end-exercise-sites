@@ -20,6 +20,10 @@
 
 洪荒时代，一切都得刀耕火种，虽然辛苦，但自己一笔一划打下的基础最牢固！
 
+- CSS 需符合 [CSS 编码规约](https://github.com/legend80s/front-end-exercise-sites/blob/master/code-style-guide/css.md)
+- HTML 需符合 [HTML 编码规约](https://github.com/legend80s/front-end-exercise-sites/blob/master/code-style-guide/html.md)
+- JavaScript 需符合 [英文版](https://github.com/airbnb/JavaScript)、英语差的同学看 [中文版](https://github.com/yuche/javascript) 👎
+
 ### 目标
 
 牢固的基础，轻松面对面试官和以后繁琐的日常工作。
@@ -30,7 +34,7 @@
 
 2. [refactor] 用事件委托重构
 
-3. [feature] 增加样式。css 需符合规范“CSS 编码规约”
+3. [feature] 增加样式。
 
    - 熟悉各种 css 选择器。以及其权重。css3 增加了哪些选择权。HTML5 增加了哪些新的标签和功能？
    - 熟悉基础颜色对应的十六进制形式，比如 #f00 代表红色，看到 #f00 想到红色，反之亦然
@@ -156,9 +160,11 @@ Hold 住后端。剑指后端 Node.js
 2. 原型链
 3. 闭包
 4. fetch
-5. 编程范式
-6. 设计模式
-7. canvas 绘图
-8. 安全 CSRF XSS
-9. CORS
-10. YSlow 35 rules - http://checkmyws.github.io/yslow-rules/
+5. canvas 绘图
+6. 安全 CSRF XSS
+7. CORS
+8. YSlow 35 rules - http://checkmyws.github.io/yslow-rules/
+9. Restful API
+10. 编程范式
+11. 设计模式
+

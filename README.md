@@ -54,15 +54,13 @@
 
 8. 增加三块区域，tab 切换
 
-   1. 网址大全。
+   1. 网址大全。静态的网址
 
-      静态的网址
-
-   2. 视频
+   2. 视频。API 摘取自 360 导航
 
       API `http://open.onebox.so.com/dataApi?&tpl=2&callback=legend.cb.get360RankedVideos&_1528902170281&query=%E7%BB%BC%E8%89%BA&url=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C&type=relation_variety_rank&src=onebox&num=1&addInfo=types:%E5%85%A8%E9%83%A8|region:%E5%85%A8%E9%83%A8|year:%E5%85%A8%E9%83%A8|limit:10|page:1`
 
-   3. 新闻
+   3. 新闻。API 摘取自 360 导航
 
       API `https://pc.api.btime.com/btimeweb/getInfoFlow?callback=jQuery111308214331648120714_1528901698870&channel=news&request_pos=channel&citycode=local_330500_330000&sub_channel=&refresh=6&req_count=6&refresh_type=2&pid=3&from=&page_refresh_id=bdd83c10-6f19-11e8-8796-6c92bf0a9cdb&_=1528901698882`
 

@@ -22,7 +22,8 @@
 
 - CSS 需符合 [CSS 编码规约](https://github.com/legend80s/front-end-exercise-sites/blob/master/code-style-guide/css.md)
 - HTML 需符合 [HTML 编码规约](https://github.com/legend80s/front-end-exercise-sites/blob/master/code-style-guide/html.md)
-- JavaScript 需符合 [英文版](https://github.com/airbnb/JavaScript)、英语差的同学看 [中文版](https://github.com/yuche/javascript) 👎
+- JavaScript 需符合 [英文版](https://github.com/airbnb/JavaScript)，英语差的同学看 [中文版](https://github.com/yuche/javascript) 👎
+- 文字排版须符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
 ### 目标
 

@@ -86,7 +86,7 @@
       * })
      ```
 
-5. [Feature] jsonp 增加错误处理，加入错误提示展现给用户。学会经典的 callback 错误处理机制。
+5. [Feature] jsonp 增加错误处理，加入错误提示展现给用户。学会经典的 Node.js callback 错误处理机制。
 
    - 重要性：为以后学习和比较 Promise 的 catch 做准备。
 

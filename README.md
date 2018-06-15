@@ -109,7 +109,7 @@
 
 6. [Refactor] 封装为类，用 prototype 的方式。了解四五种继承方案，各自优劣点，自己 pick 一种，为什么选择该种？
 
-7. [Feature] 增加腾讯视频下拉提示，左侧增加可选的下拉
+7. [Feature] 增加腾讯视频下拉提示和搜索功能，左侧增加可选的下拉
 
    ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/searcher.png)
 

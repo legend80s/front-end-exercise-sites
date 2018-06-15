@@ -113,6 +113,8 @@
 
    ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/searcher.png)
 
+   - 考察设计原则：隔离变化与不变的部分，不变的封装为函数，变化的为其形参。须善于提取差异，捕捉不变的部分，否则你会违反 DRY 原则。
+
 8. [Feature] 增加三块区域，tab 切换
 
    - 网址大全。静态的网址

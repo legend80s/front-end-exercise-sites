@@ -63,9 +63,49 @@
 
    - 重要性：面向 Promise 的重要一步
 
+   - 函数签名如下：
+
+     ```javascript
+     /**
+      * jsonp 发请求
+      *
+      * @public
+      *
+      * @param  {string} url     JSONP 对应的 API 地址
+      * @param  {Object} options
+      * @param  {functon} callback
+      * @return {void}
+      *
+      * @example
+      * jsonp('http://tip.soku.com/search_tip_1', {
+      *   queryKey: 'query',
+      *   queryValue: '北京',
+      *   callbackKey: 'jsoncallback',
+      * }, function handleResponse(response) {
+      *   console.log('response:', response);
+      * })
+     ```
+
 5. [Feature] jsonp 增加错误处理，加入错误提示展现给用户。学会经典的 callback 错误处理机制。
 
    - 重要性：为以后学习和比较 Promise 的 catch 做准备。
+
+   - 函数签名一样，只是 callback 形参不一样。用法如下
+
+     ```javascript
+     jsonp('http://tip.soku.com/search_tip_1', {
+       queryKey: 'query',
+       queryValue: '北京',
+       callbackKey: 'jsoncallback',
+     }, function handleResponse(error, response) {
+       if (error) {
+         console.error('error:', error);
+         return;
+       }
+     
+       console.log('response:', response);
+     });
+     ```
 
 6. [Refactor] 封装为类，用 prototype 的方式。了解四五种继承方案，各自优劣点，自己 pick 一种，为什么选择该种？
 

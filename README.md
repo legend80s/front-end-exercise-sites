@@ -120,8 +120,8 @@
    - 如果函数描述过长，则应该反思是否违反了 Single Responsibility 原则
    - 好的注释对未来的你和你的合作者都是一笔财富
 2. [Refactor] for 循环用 forEach 替换。并了解数组的
-   1. 处理方法：map reduce filter splice slice
-   2. 查找方法：find includes indexOf some every
+   - 处理方法：map reduce filter splice slice
+   - 查找方法：find includes indexOf some every
 3. [Performance] 防止输入频繁导致发送不必要请求，写 debounce 函数。
    - 重要性：函数式编程之高阶函数
 

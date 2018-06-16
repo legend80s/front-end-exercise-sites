@@ -143,8 +143,11 @@
 
 
 9. [Feature] 记住用户的 10 条搜索历史。显示给用户，可单条或全部删除。分别用 cookie 和 localStorage 实现
+   - 考察：cookie、localStorage、css sprite。雪碧图如下，来自百度：
+     
+     ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/baidu-sprite.png)
 
-   - 效果图如下：
+   - hover 显示删除箭头，箭头来自雪碧图第二行右数第二个，效果图如下：
 
      ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/history.png)
 

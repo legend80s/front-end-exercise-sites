@@ -195,8 +195,8 @@
 6. 函数参数用参数解构（parameter destructuring）改写
 7. [Refactor] 重构为 es6 class。并了解继承
 8. [Refactor] jsonp 改为 Promise 形式。用 then 调用。
-   1. 和 callback 比较，为什么说 Promise saves you from the callback hell？
-   2. 熟悉 Promise 的实例方法 catch finally 和静态方法 all race
+   - 和 callback 比较，为什么说 Promise saves you from the callback hell？
+   - 熟悉 Promise 的实例方法 catch finally 和静态方法 all race
 9. [Refactor] Promise 的调用改为 aync / await。并体会其好处。
 
 ### 高级进化
@@ -206,9 +206,7 @@
 成为一个可独当一面的职场前端。主要在发力在打包构建、框架、新思想新语言方面
 
 1. Webpack 3，结合 babel-loader 让我们有能力用未来的技术编程 
-
-   - *TODO*
-
+   - TODO
    - less sass。至少会一种
    - 熟悉所有 es6 语法；知道 es7 的新特性 
 

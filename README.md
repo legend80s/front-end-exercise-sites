@@ -137,7 +137,7 @@
 
       ![videos](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/videos.png)
 
-      - 新闻
+      - 新闻。点击未读新闻刷新当前 tab
 
       ![news](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/news.png)
 
@@ -245,4 +245,3 @@ Hold 住后端。剑指后端 Node.js
 
 1. [阮一峰的个人网站](http://www.ruanyifeng.com/home.html) 和他的微信公众号【阮一峰的网络日志】
 2. CSS 属性不会用看这个网站 <https://cssreference.io/> 
-

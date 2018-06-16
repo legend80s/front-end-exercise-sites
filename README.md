@@ -144,6 +144,10 @@
 
 9. [Feature] 记住用户的 10 条搜索历史。显示给用户，可单条或全部删除。分别用 cookie 和 localStorage 实现
 
+   - 效果图如下：
+
+     ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/history.png)
+
 10. [Feature] 记住用户最后选择的 tab。即当用户刷新页面后仍然会定位到最后选中的 tab。用 cookie 实现。清空缓存则默认展示第一个 tab
 
 11. [Refactor Performance] `createDocumentFragment` 重构渲染函数。并深入了解该方法的好处

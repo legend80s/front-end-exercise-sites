@@ -24,9 +24,20 @@
 
 独当一面的职业前端工程师
 
-### 做一个“有礼貌”的前端
+### 进化之前
 
-“做事先做人”，先从基本礼仪开始，做一个“有礼貌”的前端，大家才能喜欢你。可先跳过，但该规范部分必须始终贯穿你的编码生涯。
+#### 经验
+
+1. “腹有草稿，方能成竹在胸”。一个行之有效的开发经验是：先勾勒静态页面。即先把 HTML 结构写出来，CSS 稍修饰之，最后再加入 JavaScript 使之动态化。这样做是因为：
+   - HTML 结构就像房屋结构，是基础建设。HTML 结构一出来，JS 逻辑就水到渠成，呼之欲出
+   - 而且 HTML 的复杂度和 JS 的复杂度成正比，简单清晰的结构往往会导致同样简单清晰的逻辑。*BUT NO SIMPLER！*
+2. [调试技巧之打断点](https://www.zhihu.com/question/43687153) 将伴随你的前端生涯。
+
+#### 规范
+
+“做事先做人”，先从基本礼仪开始，做一个“有礼貌”的前端，如此这般方可人见人爱。
+
+*以下规范，现可不必逐条细读，但必须始终贯穿你的编码生涯。*
 
 - CSS 须符合 [CSS 编码规约](https://github.com/legend80s/front-end-exercise-sites/blob/master/code-style-guide/css.md)
 - HTML 须符合 [HTML 编码规约](https://github.com/legend80s/front-end-exercise-sites/blob/master/code-style-guide/html.md)
@@ -38,8 +49,6 @@
 ### 基础进化
 
 洪荒时代，一切都得刀耕火种，虽然辛苦，但自己一笔一划打下的基础最牢固！
-
-调试技巧之打断点 https://www.zhihu.com/question/43687153 将会伴随你的前端生涯。
 
 ### 目标
 

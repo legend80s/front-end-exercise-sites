@@ -227,7 +227,7 @@
 
 3. 新建一个项目，用 Vue.js 重构下拉提示
 
-4. 新建一个项目，用 typescript 重构
+4. ~~新建一个项目，用 typescript 重构~~ 了解 typescript
 
 5. 增加单测（可选）
 

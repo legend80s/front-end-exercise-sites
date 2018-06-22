@@ -180,15 +180,54 @@
    - 注释将帮助养成你先想后写的好习惯。一般函数名、形参、返回值固定则函数架构基本已完成
    - 如果函数描述过长，则应该反思是否违反了 Single Responsibility 原则
    - 好的注释对未来的你和你的合作者都是一笔财富
-   
-2. [Refactor] for 循环用 forEach 替换。并了解数组的
-   - 处理方法：map reduce filter splice slice
+
+2. [Refactor] for 循环用 forEach 替换。并熟悉数组的
+   - 处理方法：map reduce filter splice slice。检验习题：
+
+     ```javascript
+     某开发通过 shell 脚本统计了两台服务器的请求日志，并已将各台服务器的请求 IP 和相应的请求次数统计如下：
+     服务器一
+     10646 10.101.86.1
+     25948 10.101.86.2
+     服务器二
+     25905 10.101.86.1
+       424 10.101.86.3
+     其中第一列是请求次数，第二列是请求 IP；
+     接下来请你实现聚合功能：合并相同请求 IP 的出现次数，必须使用数组的 filter map reduce。
+     
+     // 输入字符串
+     var input = `
+     10646 10.101.86.1
+     25948 10.101.86.2
+     25905 10.101.86.1
+       424 10.101.86.3
+     `;
+     
+     // 输出
+     var output = {
+       "10.101.86.1": 36551,
+       "10.101.86.2": 25948,
+       "10.101.86.3": 424
+     }
+     
+     // 函数签名如下
+     
+     /**
+      * 聚合相同请求 IP 的次数
+      * @param  {String} log
+      * @return {Object}     
+      */
+     function aggregate(log) {
+       // TODO 答案见最后
+     }
+     ```
+
    - 查找方法：find includes indexOf some every
-   
+
 3. [Refactor] 组件化。相同的重复的 HTML 结构，封装为组件。比如某个视频和某条新闻都有相似的 HTML 结构和功能
    - 重要性：为提倡“组件化优先”的框架学习打基础。
    - 重要性：组件化的目的就是 DRY 原则
-   
+
 4. [Performance] 防止输入频繁导致发送不必要请求，写 debounce 函数。
    - 重要性：函数式编程之高阶函数初探
 
@@ -279,3 +318,26 @@ Hold 住后端。剑指后端 Node.js
 
 1. [阮一峰的个人网站](http://www.ruanyifeng.com/home.html) 和他的微信公众号【阮一峰的网络日志】
 2. CSS 属性不会用看这个网站 <https://cssreference.io/>
+
+## 部分答案
+
+1. 聚合相同请求 IP 的次数
+
+   ```javascript
+   function aggregate(log) {
+     return log
+       .split('\n')
+       .filter(s => s !== '')
+       .map(s => s.trim())
+       .map(s => s.split(' '))
+       .reduce((acc, cur) => {
+         typeof acc[cur[1]] === 'undefined' ? 
+           (acc[cur[1]] = Number(cur[0])) :
+           (acc[cur[1]] += Number(cur[0]));
+   
+         return acc;
+       }, {});
+   }
+   ```
+
+2. TODO

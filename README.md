@@ -69,6 +69,8 @@
    - 熟悉定位
    - 熟悉框模型
    - 居中输入框和下拉提示。熟悉四五种居中方式以及适用场景。如何 flex 居中。熟悉 flex 布局和 grid 布局
+   - 效果图：
+   - ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/v-qq-com-hot-search.png)
 
 4. [Refactor] jsonp 改写为 callback 形式，并注意避免 jsonp 带入的 script 的累积问题。
 

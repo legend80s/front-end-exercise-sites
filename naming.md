@@ -27,6 +27,6 @@
 ## 参考
 
 - 参见《代码大全》变量名的力量 The Power of Variable Names
-- 阿里巴巴 Java 开发规约
+- 阿里巴巴 Java 开发手册
 - https://www.cnblogs.com/flysong/p/9091051.html
 - http://www.mamicode.com/info-detail-2244648.html

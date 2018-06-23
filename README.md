@@ -46,7 +46,7 @@
 - JavaScript 须符合 Airbnb 代码规范 [英文版](https://github.com/airbnb/JavaScript)，英语差的同学看 [中文版](https://github.com/yuche/javascript) 👎
 - 文字排版须符合 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 - Git 提交信息须须合 [Git 提交信息规范](https://mp.weixin.qq.com/s/WwTQVGm5WjFXJc0JBlytMw)
-- 命名规则必须符合 [TODO](TODO)。好的命名是艺术。参见《代码大全》变量名的力量 The Power of Variable Names
+- 变量命名必须符合 [变量命名规范](https://github.com/legend80s/front-end-exercise-sites/blob/master/naming.md)
 
 ### 基础进化
 
@@ -69,7 +69,7 @@
    - 熟悉定位
    - 熟悉框模型
    - 居中输入框和下拉提示。熟悉四五种居中方式以及适用场景。如何 flex 居中。熟悉 flex 布局和 grid 布局
-   - 效果图：
+   - 效果图（来自腾讯视频）：
    - ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/v-qq-com-hot-search.png)
 
 4. [Refactor] jsonp 改写为 callback 形式，并注意避免 jsonp 带入的 script 的累积问题。

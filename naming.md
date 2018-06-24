@@ -16,19 +16,19 @@
 
 1. 常用对仗词
 
-   ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/code-complete-word-pairs.png)
+   ![code-complete-word-pairs](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/code-complete-word-pairs.png)
 
 2. 扩大词汇量。一个意思的多种表达方式
 
-   ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/more-ways-to-say-1.jpeg)
+   ![more-ways-to-say-1](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/more-ways-to-say-1.jpeg)
 
-   ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/more-ways-to-say-2.jpeg)
+   ![more-ways-to-say-2](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/more-ways-to-say-2.jpeg)
 
 3. TODO
 
 ## 参考
 
-- 参见《代码大全》变量名的力量 The Power of Variable Names
+- 《代码大全》变量名的力量 The Power of Variable Names
 - 阿里巴巴 Java 开发手册
 - https://www.cnblogs.com/flysong/p/9091051.html
 - http://www.mamicode.com/info-detail-2244648.html

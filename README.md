@@ -319,7 +319,8 @@ Hold 住后端。剑指后端 Node.js
 ## 博客和网站推荐
 
 1. [阮一峰的个人网站](http://www.ruanyifeng.com/home.html) 和他的微信公众号【阮一峰的网络日志】
-2. CSS 属性不会用看这个网站 <https://cssreference.io/>
+2. [The HTML & CSS Security Checklist](https://www.sqreen.io/checklists/html-css-security-checklist)
+3. CSS 属性不会用看这个网站 <https://cssreference.io/>
 
 ## 部分答案
 

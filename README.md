@@ -148,7 +148,7 @@
 
       - 视频
 
-      ![videos](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/videos.jpeg)
+      ![videos](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/videos-hover.png)
 
       - 新闻。点击未读新闻刷新当前 tab
 

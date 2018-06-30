@@ -69,8 +69,9 @@
    - 熟悉定位
    - 熟悉框模型
    - 居中输入框和下拉提示。熟悉四五种居中方式以及适用场景。如何 flex 居中。熟悉 flex 布局和 grid 布局
-   - 效果图（来自腾讯视频）：
-   - ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/v-qq-com-hot-search.png)
+   - 效果图（来自 [腾讯视频](https://v.qq.com)）：
+
+     ![searcher](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/v-qq-com-hot-search.png)
 
 4. [Refactor] jsonp 改写为 callback 形式，并注意避免 jsonp 带入的 script 的累积问题。
 
@@ -128,39 +129,31 @@
 
    - 考察设计原则：隔离变化与不变的部分，不变的封装为函数，变化的为其形参。须善于提取差异，捕捉不变的部分，否则你会违反 DRY 原则。
 
-8. [Feature] 增加三块区域，tab 切换
+8. [Feature] 增加三块区域，tab 切换。效果图的配色不要求一模一样，用自己喜欢的即可
 
-   - 网址大全。静态的网址
+   - 网址大全
 
-   - 视频。API 摘取自 360 导航
+      - ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/favorite-sites.jpeg)
 
-      API `http://open.onebox.so.com/dataApi?&tpl=2&callback=legend.cb.get360RankedVideos&_1528902170281&query=%E7%BB%BC%E8%89%BA&url=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C&type=relation_variety_rank&src=onebox&num=1&addInfo=types:%E5%85%A8%E9%83%A8|region:%E5%85%A8%E9%83%A8|year:%E5%85%A8%E9%83%A8|limit:10|page:1`
+   - 视频。hover 视频显示橘红色边框，*API 摘取自 360 导航*
 
-   - 新闻。API 摘取自 360 导航
+      - API `http://open.onebox.so.com/dataApi?&tpl=2&callback=legend.cb.get360RankedVideos&_1528902170281&query=%E7%BB%BC%E8%89%BA&url=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C&type=relation_variety_rank&src=onebox&num=1&addInfo=types:%E5%85%A8%E9%83%A8|region:%E5%85%A8%E9%83%A8|year:%E5%85%A8%E9%83%A8|limit:10|page:1`
+      - ![videos](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/videos-hover.png)
 
-      API `https://pc.api.btime.com/btimeweb/getInfoFlow?callback=jQuery111308214331648120714_1528901698870&channel=news&request_pos=channel&citycode=local_330500_330000&sub_channel=&refresh=6&req_count=6&refresh_type=2&pid=3&from=&page_refresh_id=bdd83c10-6f19-11e8-8796-6c92bf0a9cdb&_=1528901698882`
+   - 新闻。点击未读新闻刷新当前版块，*API 摘取自 [360 导航新闻版块](https://www.btime.com/?from=gjl)*
 
-   - 效果图：配色不要求一模一样，用自己喜欢的即可
+      - API `https://pc.api.btime.com/btimeweb/getInfoFlow?callback=jQuery111308214331648120714_1528901698870&channel=news&request_pos=channel&citycode=local_330500_330000&sub_channel=&refresh=6&req_count=6&refresh_type=2&pid=3&from=&page_refresh_id=bdd83c10-6f19-11e8-8796-6c92bf0a9cdb&_=1528901698882`
 
-      - 网址：
+      - ![news](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/news.png)
 
-      ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/favorite-sites.jpeg)
-
-      - 视频
-
-      ![videos](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/videos-hover.png)
-
-      - 新闻。点击未读新闻刷新当前 tab
-
-      ![news](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/news.png)
 
 
 9. [Feature] 记住用户的 10 条搜索历史。显示给用户，可单条或全部删除。分别用 cookie 和 localStorage 实现
-   - 考察：cookie、localStorage、css sprite。雪碧图如下，来自百度：
+   - 考察：cookie、localStorage、css sprite。雪碧图如下，来自 [百度搜索](http://www.baidu.com)：
      
      ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/baidu-sprite.png)
 
-   - hover 显示删除箭头，箭头来自雪碧图第二行右数第二个，效果图如下：
+   - hover 显示删除箭头，箭头来自雪碧图第二行右数第二个，效果图如下，结合参考第 3 点的腾讯视频效果图：
 
      ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/history.png)
 

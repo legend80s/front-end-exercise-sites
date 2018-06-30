@@ -144,11 +144,11 @@
 
       - 网址：
 
-      ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/favorite-sites.png)
+      ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/favorite-sites.jpeg)
 
       - 视频
 
-      ![videos](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/videos.png)
+      ![videos](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/videos.jpeg)
 
       - 新闻。点击未读新闻刷新当前 tab
 

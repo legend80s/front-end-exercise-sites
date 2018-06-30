@@ -133,7 +133,7 @@
 
    - 网址大全
 
-      - ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/favorite-sites.jpeg)
+     ![favorite-sites](https://raw.githubusercontent.com/legend80s/front-end-exercise-sites/master/images/favorite-sites.jpeg)
 
    - 视频。hover 视频显示橘红色边框，*API 摘取自 360 导航*
 

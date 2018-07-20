@@ -336,4 +336,6 @@ Hold 住后端。剑指后端 Node.js
    }
    ```
 
-2. TODO
+2. Angular 6 实现见 https://github.com/legend80s/sites-angular
+
+3. TODO

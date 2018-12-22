@@ -315,6 +315,8 @@ Hold 住后端。剑指后端 Node.js
 2. [The HTML & CSS Security Checklist](https://www.sqreen.io/checklists/html-css-security-checklist)
 3. CSS 属性不会用看这个网站 <https://cssreference.io/>
 4. [JavaScript 的算法与数据结构](https://github.com/trekhleb/javascript-algorithms)
+5. [A few HTML tips](https://hacks.mozilla.org/2016/08/a-few-html-tips/) 适合初学者
+6. [Learn Vanilla JavaScript](https://github.com/snipcart/learn-vanilla-js)
 
 ## 面试题
 

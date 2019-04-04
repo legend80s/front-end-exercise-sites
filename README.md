@@ -1,4 +1,5 @@
-# Front-end Exercises - Sites
+# Front-end Exercises
+
 > 优秀前端工程师的进化之路，知识点全覆盖。
 >
 > 目标是从入门级别前端工程师脱胎换骨为独当一面的职业前端工程师。

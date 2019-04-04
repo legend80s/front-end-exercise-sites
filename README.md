@@ -314,9 +314,11 @@ Hold 住后端。剑指后端 Node.js
 1. [阮一峰的个人网站](http://www.ruanyifeng.com/home.html) 和他的微信公众号【阮一峰的网络日志】
 2. [The HTML & CSS Security Checklist](https://www.sqreen.io/checklists/html-css-security-checklist)
 3. CSS 属性不会用看这个网站 <https://cssreference.io/>
+4. https://github.com/kujian/30-seconds-of-css
 4. [JavaScript 的算法与数据结构](https://github.com/trekhleb/javascript-algorithms)
 5. [A few HTML tips](https://hacks.mozilla.org/2016/08/a-few-html-tips/) 适合初学者
 6. [Learn Vanilla JavaScript](https://github.com/snipcart/learn-vanilla-js)
+7. [You Don't Know JS English Version](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch1.md), [中文版](https://github.com/kujian/You-Dont-Know-JS/tree/1ed-zh-CN)
 
 ## 面试题
 

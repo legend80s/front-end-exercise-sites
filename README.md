@@ -331,6 +331,10 @@ Hold 住后端。剑指后端 Node.js
 ## 常见误区
 
 1. [GET 是否可以带 Body](https://yanbin.blog/why-http-get-cannot-sent-data-with-reuqest-body/)
+  - 从协议是实现的角度来说：协议并未认为 GET 带 body 是不遵循规范的，但是很多实现并不支持，故给我们一种印象 GET 不能带 body，既然实现不支持，自然推荐不带 body
+  - 从缓存的角度来说：GET 被设计来用 URI 来识别资源，如果让它的请求体中携带数据，那么通常的缓存服务便失效了，URI 不能作为缓存的 Key。
+  
+2. TODO
 
 ## 部分答案
 

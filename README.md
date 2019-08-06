@@ -8,6 +8,7 @@
 
 ## Task Todo List
 1. React 或 Vue 写个项目。目标是能自信的说自己能独立搭建项目
+2. lodash：若无，引入该常用 util 方法库。目标：熟悉安装依赖流程、体会引入外包依赖的重要性
 2. ESlint：若无，给项目加 eslint。目标是熟悉 Airbnb JavaScript 和 React 规范
 3. jsdoc：安装 DocBlockr 给方法或函数加注释。目标提升代码可读性
 4. 组件化：大块代码切分为小的组件。目标了解组件化思维，一切皆组件。

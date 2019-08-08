@@ -6,7 +6,7 @@
 
 秉着以兴趣为导向的宗旨，若不感兴趣的知识点可先略过，注重把功能完成，以后回过头来再仔细研究遗漏的知识点。
 
-## Task Todo List
+## Tasks
 1. React 或 Vue 写个项目。目标是能自信的说自己能独立搭建项目
 2. lodash：若无，引入该常用 util 方法库。目标：熟悉安装依赖流程、体会引入外包依赖的重要性
 2. ESlint：若无，给项目加 eslint。目标是熟悉 Airbnb JavaScript 和 React 规范
@@ -16,7 +16,7 @@
 6. UT：若无，给项目的所有 util 方法加单测。目标是抓代码质量
 7. TypeScript：项目 ts 化。目标是熟悉现代前端工程师必备新技能之一
 8. Node.js：react / vue 项目调用自己写的接口。目标是熟悉现代前端工程师必备技能之一
-9. Restful API：让接口符合 rest 规范。目标了解 rest：HTTP method 和 status code
+9. Restful API：让接口符合 rest 规范。目标了解 rest：HTTP method 和 status code - https://http.cat/
 10. FP：学习 JavaScript 函数式编程（Functional Programming），吸取其精华应用到项目中
 11. SOLID：学习面向对象 SOLID 原则，并应用到项目中
 12. 算法基础：《剑指 offer》。目标是了解，无需深入否则浪费时间，对其要求不高，权重因此下降

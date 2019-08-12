@@ -1,32 +1,33 @@
 # Road to Frontend Engineer
 
-> 前端工程师的进化之路，知识点全覆盖。
-> 目标是从入门级别前端工程师脱胎换骨为独当一面的职业前端工程师。
+> 前端工程师的进化之路，知识点全覆盖。目标是从入门级别前端工程师脱胎换骨为独当一面的职业前端工程师。
 
 秉着以兴趣为导向的宗旨，若不感兴趣的知识点可先略过，注重把功能完成，以后回过头来再仔细研究遗漏的知识点。
 
 ## Tasks
-1. React 或 Vue 写个项目。项目可从兴趣或实用出发，日常用到但不方便，比如逛的网站很多，放在 bookmarks 不方便，那不妨写一个网址导航，豆瓣租房人工刷选工作量大，写个爬虫，数据通过页面展示出来……。目标是能自信的说自己能独立搭建项目
+1. React 或 Vue 写个项目。目标是能自信的说自己能独立搭建项目。
+   - 项目可从兴趣或实用出发，日常用到但不方便，比如逛的网站很多，放在 bookmarks 不方便，那不妨写一个网址导航，比如 https://tophub.today/ 或 http://www.addog.vip/；或模仿图片网站 <https://www.pexels.com/>，训练自己的 CSS 布局能力（flex）；豆瓣租房人工刷选工作量大，写个爬虫，数据通过页面展示出来……。
 2. lodash：若无，引入该常用 util 方法库。目标：熟悉安装依赖流程、体会引入外包依赖的重要性
-2. ESlint：若无，给项目加 eslint。目标是熟悉 Airbnb JavaScript 和 React 规范
-3. jsdoc：安装 DocBlockr 给方法或函数加注释。目标提升代码可读性
-4. 组件化：大块代码切分为小的组件。目标了解组件化思维，一切皆组件。
-5. React Hooks：若无，给项目加 hooks。目标是熟练使用 React 新技术
-6. UT：若无，给项目的所有 util 方法加单测。目标是抓代码质量
-7. TypeScript：项目 ts 化。目标是熟悉现代前端工程师必备新技能之一
-8. Node.js：react / vue 项目调用自己写的接口。目标是熟悉现代前端工程师必备技能之一
-9. Restful API：让接口符合 rest 规范。目标了解 rest：HTTP method 和 status code - https://http.cat/
-10. FP：学习 JavaScript 函数式编程（Functional Programming），吸取其精华应用到项目中
-11. SOLID：学习面向对象 SOLID 原则，并应用到项目中
-12. 算法基础：《剑指 offer》。目标是了解，无需深入否则浪费时间，对其要求不高，权重因此下降
+3. ESlint：若无，给项目加 eslint。目标是熟悉 Airbnb JavaScript 和 React 规范
+4. jsdoc：安装 DocBlockr 给方法或函数加注释。目标提升代码可读性
+5. 组件化：大块代码切分为小的组件。目标了解组件化思维，一切皆组件。
+6. React Hooks：若无，给项目加 hooks。目标是熟练使用 React 新技术
+7. UT：若无，给项目的所有 util 方法加单测。目标是抓代码质量
+8. TypeScript：项目 ts 化。目标是熟悉现代前端工程师必备新技能之一
+9. Node.js：react / vue 项目调用自己写的接口。目标是熟悉现代前端工程师必备技能之一
+10. Restful API：让接口符合 rest 规范。目标了解 rest：HTTP method 和 status code - https://http.cat/
+11. FP：学习 JavaScript 函数式编程（Functional Programming），吸取其精华应用到项目中
+12. SOLID：学习面向对象 SOLID 原则，并应用到项目中
+13. 算法基础：《剑指 offer》。目标是了解，无需深入否则浪费时间，对其要求不高，权重因此下降
 
 其他技巧和注意事项：
 
 1. 禁止 for 和 for in 循环，用其他循环替代 for 循环（map reduce filter……）
-2. DRY
-3. KISS
-4. Readability
-5. CR。https://mp.weixin.qq.com/s/OCeOMmLDl6TgaJD8HuroVg
+2. flex 布局
+3. DRY
+4. KISS
+5. Readability
+6. CR。https://mp.weixin.qq.com/s/OCeOMmLDl6TgaJD8HuroVg
 
 ## 训练开始
 

@@ -13,7 +13,7 @@
 5. 组件化：大块代码切分为小的组件。目标了解组件化思维，一切皆组件。
 6. React Hooks：若无，给项目加 hooks。目标是熟练使用 React 新技术
 7. UT：若无，给项目的所有 util 方法加单测。目标是抓代码质量
-8. TypeScript：项目 ts 化。目标是熟悉现代前端工程师必备新技能之一
+8. TypeScript：项目 ts 化。目标是熟悉现代前端工程师必备新技能之一。[《TypeScript 入门教程》](https://ts.xcatliu.com/)
 9. Node.js：react / vue 项目调用自己写的接口。目标是熟悉现代前端工程师必备技能之一
 10. Restful API：让接口符合 rest 规范。目标了解 rest：HTTP method 和 status code - https://http.cat/
 11. FP：学习 JavaScript 函数式编程（Functional Programming），吸取其精华应用到项目中

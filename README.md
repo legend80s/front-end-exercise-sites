@@ -6,7 +6,7 @@
 
 ## Tasks
 1. React 或 Vue 写个项目。目标是能自信的说自己能独立搭建项目。
-   - 项目可从兴趣或实用出发，日常用到但不方便，比如逛的网站很多，放在 bookmarks 不方便，那不妨写一个网址导航，比如 https://tophub.today/ 或 http://www.addog.vip/；或模仿图片网站 <https://www.pexels.com/>，训练自己的 CSS 布局能力（flex）；豆瓣租房人工刷选工作量大，写个爬虫，数据通过页面展示出来……。
+   - 项目可从兴趣或实用出发，日常用到但不方便，比如逛的网站很多，放在 bookmarks 不方便，那不妨写一个网址导航，比如 <https://tophub.today/> 或 <http://www.addog.vip/>；或模仿图片网站 <https://www.pexels.com/>，训练自己的 CSS 布局能力（flex）；豆瓣租房人工刷选工作量大，写个爬虫，数据通过页面展示出来……。
 2. lodash：若无，引入该常用 util 方法库。目标：熟悉安装依赖流程、体会引入外包依赖的重要性
 3. ESlint：若无，给项目加 eslint。目标是熟悉 Airbnb JavaScript 和 React 规范
 4. jsdoc：安装 DocBlockr 给方法或函数加注释。目标提升代码可读性

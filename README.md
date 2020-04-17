@@ -333,7 +333,7 @@ Hold 住后端。剑指后端 Node.js
 
 我们要做一个“有礼貌、守原则、知廉耻、辨美丑”的程序员。
 
-## 博客和网站推荐
+## 珍贵的网站推荐
 
 1. [阮一峰的个人网站](http://www.ruanyifeng.com/home.html) 和他的微信公众号【阮一峰的网络日志】
 2. [The HTML & CSS Security Checklist](https://www.sqreen.io/checklists/html-css-security-checklist)
@@ -343,6 +343,7 @@ Hold 住后端。剑指后端 Node.js
 5. [A few HTML tips](https://hacks.mozilla.org/2016/08/a-few-html-tips/) 适合初学者
 6. [Learn Vanilla JavaScript](https://github.com/snipcart/learn-vanilla-js)
 7. [You Don't Know JS English Version](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch1.md), [中文版](https://github.com/kujian/You-Dont-Know-JS/tree/1ed-zh-CN)
+8. [Referrer and cache control APIs for fetch()](https://hacks.mozilla.org/2016/03/referrer-and-cache-control-apis-for-fetch/)
 
 ## 面试题
 

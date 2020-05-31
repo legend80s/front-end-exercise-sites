@@ -4,9 +4,8 @@
 
 观看以下 YouTube 视频判断你是 Noob，Advanced 或 Professional 程序员
 
-![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 1](https://www.youtube.com/watch?v=g2nMKzhkvxw)
-
-![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 2](https://www.youtube.com/watch?v=5B587bQ-TNg)
+1. ![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 1](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+2. ![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 2](https://www.youtube.com/watch?v=5B587bQ-TNg)
 
 
 > Being a pro is all about thinking that someone else will have to read and understand your code.

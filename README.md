@@ -8,7 +8,7 @@
 
 观看以下 YouTube 视频判断你是 Noob Advanced 或 Professional 程序员
 
-[Junior Vs Senior Code - How To Write Better Code](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code](https://www.youtube.com/watch?v=g2nMKzhkvxw)
 
 ## Tasks
 1. React 或 Vue 写个项目。目标是能自信的说自己能独立搭建项目。

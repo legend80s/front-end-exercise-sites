@@ -201,7 +201,22 @@ function calculateTotal(items, { shipping = SHIPPING_DEFAULT, discount = 0 } = {
 1-noob.js
 
 ```js
+const readline = require('readline')
 
+const readlineInterface = readline.createInterface({
+  input: process.stdin,
+  output: process. stdout,
+})
+
+readlineInterface.question('what is your name? ', name => {
+  readlineInterface.question('What is your job? ', job => {
+    readlineInterface.question('How old are you? ', age => {
+      console.log('Hello ' + name + '. You are a ' + age + ' year old ' + job + '.')
+
+      readlineInterface.close()
+    })
+  })
+})
 ```
 
 ### 高级前端工程师代码

@@ -6,9 +6,13 @@
 
 ## 测验你的级别
 
-观看以下 YouTube 视频判断你是 Noob Advanced 或 Professional 程序员
+观看以下 YouTube 视频判断你是 Noob，Advanced 或 Professional 程序员
 
 ![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+
+> Being a pro is all about thinking that someone else will have to read and understand your code.
+> and realizing that "someone else" could just be you, 6 months in the future
+> The main problem with comments is that they have to be kept in sync with the actual code. So in practice it's usually best to have code that is as self-explanatory as possible. Comments should only be used to explain the overall intention of the code, i.e. meta-information that is not apparent from the code itself - because this (usually) does not change during refactoring or bugfixing. If you feel the need to explain your actual code in a comment, better invest the time into making the code more obvious.
 
 ## Tasks
 1. React 或 Vue 写个项目。目标是能自信的说自己能独立搭建项目。

@@ -1,10 +1,13 @@
 # Noob Advanced or Professional Programmer
 
-测验你的级别
+## 测验你的级别
 
 观看以下 YouTube 视频判断你是 Noob，Advanced 或 Professional 程序员
 
-![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 1](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+
+![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 2](https://www.youtube.com/watch?v=5B587bQ-TNg)
+
 
 > Being a pro is all about thinking that someone else will have to read and understand your code.
 >
@@ -53,7 +56,7 @@ console.log(toAccounting(-5))
 
 2-advanced.js
 
-```
+```js
 function numberToAccountingString(number) {
   if (number != null) {
     if (number < 0) {
@@ -74,7 +77,7 @@ console.log(numberToAccountingString(-5))
 
 3-pro.js
 
-```
+```js
 function numberToAccountingString(number) {
   if (number == null) return
   if (number < 0) return `(${Math.abs(number)})`
@@ -134,7 +137,7 @@ console.log(calculateTotal(testItems, { ship: 12}))
 
 2-advanced.js
 
-```
+```js
 const TAX_RATE = 1.1
 const SHIPPING_DEFAULT = 5
 
@@ -163,7 +166,7 @@ function calculateTotal(items, options = {}) {
 
 3-pro.js
 
-```
+```js
 const TAX_RATE = 1.1
 const SHIPPING_DEFAULT = 5
 
@@ -205,7 +208,7 @@ function calculateTotal(items, { shipping = SHIPPING_DEFAULT, discount = 0 } = {
 
 2-advanced.js
 
-```
+```js
 const readline = require('readline')
 
 const readlineInterface = readline.createInterface({
@@ -238,7 +241,7 @@ function askQuestion(readlineInterface, question) {
 
 3-pro.js
 
-```
+```js
 const askQuestion = require('./pro/askQuestion');
 
 async function main() {
@@ -281,58 +284,22 @@ main();
 
 2-advanced.js
 
-```
-const readline = require('readline')
+```js
 
-const readlineInterface = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-})
-
-async function main() {
-  const name = await askQuestion(readlineInterface, 'What is your name? ')
-  const job = await askQuestion(readlineInterface, 'What is your job? ')
-  const age = await askQuestion(readlineInterface, 'How old are you? ')
-
-  console.log(`Hello ${name}. You are a ${age} years old ${job}`)
-
-  readlineInterface.close()
-}
-
-main();
-
-function askQuestion(readlineInterface, question) {
-  return new Promise(resolve => {
-    readlineInterface.question(question, answer => {
-      resolve(answer);
-    })
-  })
-}
 ```
 
 ### 资深前端工程师代码
 
 3-pro.js
 
-```
-const askQuestion = require('./pro/askQuestion');
+```js
 
-async function main() {
-  const name = await askQuestion('What is your name? ')
-  const job = await askQuestion('What is your job? ')
-  const age = await askQuestion('How old are you? ')
-
-  console.log(`Hello ${name}. You are a ${age} years old ${job}`)
-}
-
-main();
 ```
 
 阶段总结：
 
-- **Callback Hell** resolve the nestling problem by converting callbacks to Promises
-- Abstract away: break to 
-- **Abstract Leaking** that is implementation details leaking out of our askQuestion function.
+- **SRP** the big takeway from this is that number one break up your big funtions into individual functions that have a single responsibility
+- **DRY** 
 
 
 

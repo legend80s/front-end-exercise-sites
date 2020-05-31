@@ -7,6 +7,7 @@
 1. ![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 1](https://www.youtube.com/watch?v=g2nMKzhkvxw)
 2. ![youtube favicon](https://www.youtube.com/favicon.ico) [Junior Vs Senior Code - How To Write Better Code - Part 2](https://www.youtube.com/watch?v=5B587bQ-TNg)
 
+摘取一些有启发性的留言：
 
 > Being a pro is all about thinking that someone else will have to read and understand your code.
 >

@@ -4,6 +4,12 @@
 
 秉着以兴趣为导向的宗旨，若不感兴趣的知识点可先略过，注重把功能完成，以后回过头来再仔细研究遗漏的知识点。
 
+## 测验你的级别
+
+观看以下 YouTube 视频判断你是 Noob Advanced 或 Professional 程序员
+
+[Junior Vs Senior Code - How To Write Better Code](https://www.youtube.com/watch?v=g2nMKzhkvxw)
+
 ## Tasks
 1. React 或 Vue 写个项目。目标是能自信的说自己能独立搭建项目。
    - 项目可从兴趣或实用出发，日常用到但不方便，比如逛的网站很多，放在 bookmarks 不方便，那不妨写一个网址导航，比如 <https://tophub.today/> 或 <http://www.addog.vip/>；或模仿图片网站 <https://www.pexels.com/>，训练自己的 CSS 布局能力（flex）；豆瓣租房人工刷选工作量大，写个爬虫，数据通过页面展示出来……。
@@ -334,7 +340,7 @@ Hold 住后端。剑指后端 Node.js
 我们要做一个“有礼貌、守原则、知廉耻、辨美丑”的程序员。
 
 ## 珍贵的网站推荐
-
+ 
 1. [阮一峰的个人网站](http://www.ruanyifeng.com/home.html) 和他的微信公众号【阮一峰的网络日志】
 2. [The HTML & CSS Security Checklist](https://www.sqreen.io/checklists/html-css-security-checklist)
 3. CSS 属性不会用看这个网站 <https://cssreference.io/>

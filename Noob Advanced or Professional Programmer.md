@@ -82,7 +82,7 @@ function numberToAccountingString(number) {
   if (number == null) return
   if (number < 0) return `(${Math.abs(number)})`
 
-  return `(${Math.abs(number)})`
+  return number.toString()
 }
 
 console.log(numberToAccountingString(undefined))
@@ -110,7 +110,7 @@ function calculateTotal(items, options) {
   items.forEach(i => {
     t += i.price * i.quan
   })
-  t = t - t* (options.dis || 0)
+  t = t - t * (options.dis || 0)
   t = t * 1.1
   t = t + (options.ship || 5)
   return t

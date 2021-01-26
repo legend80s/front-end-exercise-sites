@@ -356,6 +356,7 @@ Hold 住后端。剑指后端 Node.js
 6. [Learn Vanilla JavaScript](https://github.com/snipcart/learn-vanilla-js)
 7. [You Don't Know JS English Version](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch1.md), [中文版](https://github.com/kujian/You-Dont-Know-JS/tree/1ed-zh-CN)
 8. [Referrer and cache control APIs for fetch()](https://hacks.mozilla.org/2016/03/referrer-and-cache-control-apis-for-fetch/)
+9. https://javascript.info/
 
 ## 面试题
 
